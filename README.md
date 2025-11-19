@@ -1,3 +1,4 @@
+VIDEO WALKTHROUGH - https://drive.google.com/file/d/1jY85SjlWcy9f7APWPgQWBQbbLggsGcGc/view?usp=sharing
 Wall Coverage Planner (Boustrophedon + A* Path Stitching)
 
 This project generates a complete, obstacle-aware painting trajectory for a rectangular wall.
