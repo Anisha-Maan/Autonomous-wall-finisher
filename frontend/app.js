@@ -1,4 +1,9 @@
-const BASE_URL = "http://localhost:8000";
+// Support different environments
+const BASE_URL = window.location.hostname === 'localhost' && window.location.port === '8001'
+  ? "http://localhost:8000"  // Local development with separate servers
+  : window.location.hostname === 'localhost'
+  ? window.location.origin  // Docker deployment - use nginx proxy
+  : "https://wall-finisher-backend.onrender.com";  // Cloud deployment
 
 // DOM
 const planBtn = document.getElementById("planBtn");
