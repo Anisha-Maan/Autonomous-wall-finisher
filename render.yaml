@@ -17,7 +17,6 @@ services:
   - type: web
     name: wall-finisher-frontend
     env: static
-    region: singapore
     plan: free
     buildCommand: echo "No build needed"
     staticPublishPath: ./frontend
